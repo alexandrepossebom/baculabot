@@ -3,7 +3,9 @@ Simple Bacula bot to notify when backup ends
 Based in Wanderlei Huttel bash script
 
 
-# Change your bacula-dir.conf Default Job to like this:
+### Change your bacula-dir.conf Default Job to like this:
+
+```
 JobDefs {
   Name = "DefaultJob"
   Type = Backup
@@ -26,3 +28,4 @@ JobDefs {
      RunsOnSuccess = yes
   }
 }
+```
