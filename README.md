@@ -27,14 +27,14 @@ Add you new bot to your telegram and start message something with him.
 
 Uncomment these lines in telegram.py:
 
+```
 #result = urllib2.urlopen("https://api.telegram.org/bot" + BOT_ID + "/getUpdates").read()
 #print result
 #sys.exit(0)
+```
 
 Run the telegram.py it will return CHAT_ID put it in your telegram.py.
-
 delete or comment lines you have uncommented.
-
 
 ### Change your bacula-dir.conf Default Job to like this:
 
